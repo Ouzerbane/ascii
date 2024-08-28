@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ascii-art-web</title>
+    <link rel="stylesheet" href="/static/style.css">
+</head>
+
+<body>
+    <div>
+        <h1 class="title">ASCII-ART-WEB</h1>
+        <form action="/ascii-art" method="POST">
+
+            <textarea name="input" rows="10" cols="40" maxlength="1000" placeholder="Enter your text here"
+               class="text" required></textarea>
+               <br>
+            <select name="banner" class="nb">
+                <option class="standard">standard</option>
+                <option>shadow</option>
+                <option>thinkertoy</option>
+            </select>
+            <br>
+            <input type="submit" value="Submit" class="nb">
+        </form>
+    </div>
+</body>
+
+</html>
